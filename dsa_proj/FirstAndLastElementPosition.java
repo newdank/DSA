@@ -11,7 +11,7 @@ public class FirstAndLastElementPosition {
         System.out.println(Arrays.toString(searchRance(arr1, 1)));
     }
     public static int[] searchRance(int[] nums, int target){
-        int[] arr = {-1,-1}
+//        int[] arr = {-1,-1};
         int ans = searchResutl(nums,1,true);
         int ans2= searchResutl(nums,1,false);
         int[] arr = {ans,ans2};
