@@ -21,7 +21,7 @@ public class SubsequencesWithRec {
 
     public static ArrayList<String> subseqret(String p,String up){
         if(up.isEmpty()){
-            ArrayList<String> list = new ArrayList<>();s
+            ArrayList<String> list = new ArrayList<>();
             list.add(p);
             return list;
         }
